@@ -13,7 +13,7 @@ def test_01():
 
 
 def test_02():
-    print(preguntas.pregunta_02().tolist())
+    print(round(preguntas.pregunta_02(), 3))
     assert preguntas.pregunta_02().tolist() == [[250, 17], [10, 158]]
 
 
