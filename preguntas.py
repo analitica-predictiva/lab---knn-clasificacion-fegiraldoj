@@ -81,4 +81,5 @@ def pregunta_02():
     
     matrix = confusion_matrix(y, y_pred)
     # Retorne la matriz de confusión
-    return matrix
+    #return matrix
+    return knn.score(X, y)
