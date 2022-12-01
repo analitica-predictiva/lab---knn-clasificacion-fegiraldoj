@@ -13,6 +13,7 @@ def test_01():
 
 
 def test_02():
+    print(preguntas.pregunta_02().tolist())
     assert preguntas.pregunta_02().tolist() == [[250, 17], [10, 158]]
 
 
